@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    color: white
+}
+
+body{
+    background-color: #0c0d0f;
+}
+
+.header{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    border-bottom: 1px solid ;
+}
+
+.header ul{
+    color: rgb(180, 130, 238);
+    display: flex;
+    gap: 50px;
+    position: relative;
+    top: 30px;
+    right: 10px;
+}
+
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.header a:hover{
+    color: purple;
+}
+
+.header a::after{
+    color: gray;
+}
+
+.header img{
+    border: solid 1px gray;
+    border-radius: 50px;
+    display: flex;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    left: 10px;
+}
+
+.container{
+    display: flex;
+    align-items: flex-start;
+    max-width: 1280px;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.apresentacao{
+    display: block;
+    margin: 100px 100px;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    border-bottom: solid 2px rgb(88, 86, 86);
+    border-right: solid 2px rgb(88, 86, 86);
+    border-left: solid 2px rgb(26, 25, 25);
+    border-radius:20px;
+}
+
+.apresentacao h1{
+    margin-bottom: 15px;
+}
+
+.apresentacao h2{
+    display: block;
+    position: relative;
+    bottom: 10px;
+}
+
+.Profile{
+    margin: 50px auto;
+    display: block;
+    position: static;
+    width: 650px;
+    padding: 20px;
+    text-align: center;
+    border-left: 2px solid gray;
+    border-right: 2px solid rgb(51, 48, 48);
+    border-bottom: 2px solid gray;
+    border-radius: 20px; 
+}
+
+.colunaesquerda{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Profile h2 {
+    color: Orange;
+    padding: 10px;
+}
+
+.Profile > img {
+    border: 2px solid orange;
+    border-radius: 20px;
+}
+
+.Profile h2 > p{
+    position: relative;
+    padding: 10px;
+}
+
+.Profile h2 + h2{
+    position: relative;
+    color: Blue;
+}
+
+.Profile h2 + h2 > p{
+    position: relative;
+    top: 5px;
+}
+
+.apresentacao2{
+    display: block;
+    position: relative;
+    margin: auto 100px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border-bottom: solid 2px rgb(88, 86, 86);
+    border-right: solid 2px rgb(88, 86, 86);
+    border-left: solid 2px rgb(26, 25, 25);
+    border-radius: 20px;
+}
+
+.apresentacao2 > h2{
+    position: relative;
+    top: 50px;
+}
+
+.apresentacao2 > h3{
+    position: relative;
+    top: 50px;
+}
+
+.footer{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    border-top: 1px solid gray; 
+    padding: 50px;
+}
+
+footer > h2{
+    text-align: center;
+}
